@@ -2,9 +2,177 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 35c074f0-8545-4dc1-a57d-3ef0bc7d9188)
+	(uuid "35c074f0-8545-4dc1-a57d-3ef0bc7d9188")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 63.5 38.1)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "332aa9c6-46d1-4f07-ac6a-0c48b9b46fa2")
+		(property "Sheetname" "MCU"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 63.5 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "senior_design"
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 38.1)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97e7f441-78af-47c4-8e49-e87c6db6b63d")
+		(property "Sheetname" "Memory"
+			(at 139.7 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 139.7 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "senior_design"
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce5cb751-dcc9-43da-9e85-60783f09935d")
+		(property "Sheetname" "Hall Effect"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall_effect.kicad_sch"
+			(at 63.5 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "senior_design"
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fae4d877-45a6-4ca2-813c-194b5c7d3bb2")
+		(property "Sheetname" "Peripherals"
+			(at 139.7 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 139.7 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "senior_design"
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
