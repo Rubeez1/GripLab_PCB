@@ -5,6 +5,16 @@
 	(uuid "35c074f0-8545-4dc1-a57d-3ef0bc7d9188")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 157.48 76.2) (xy 157.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c4f2be-b40e-4d2e-8475-54545a90ed0d")
+	)
 	(sheet
 		(at 127 50.8)
 		(size 38.1 25.4)
@@ -37,6 +47,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_IN1" input
+			(at 157.48 76.2 270)
+			(uuid "62cbef7e-5f35-4bdc-a87f-5b270473e562")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -163,6 +183,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_IN1" input
+			(at 157.48 101.6 90)
+			(uuid "06d361b1-dda6-416f-86f0-5a3a19d4868f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
