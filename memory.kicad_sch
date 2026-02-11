@@ -1105,7 +1105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M24C64-WMN6TP:SOIC127P600X175-8N"
+		(property "Footprint" "EEProm Footprint:SOIC127P600X175-8N"
 			(at 143.51 100.33 0)
 			(effects
 				(font
