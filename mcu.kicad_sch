@@ -5459,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 40.64) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e04c07f-922b-4749-b60b-1833ab0ce60f")
+	)
+	(wire
+		(pts
 			(xy 25.4 67.31) (xy 25.4 69.85)
 		)
 		(stroke
@@ -5696,6 +5706,16 @@
 			(type default)
 		)
 		(uuid "65c194f0-a1f1-447b-9b94-8126364dfb22")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663f0cc9-3827-4ad3-9590-91e5799ffaac")
 	)
 	(wire
 		(pts
@@ -6496,6 +6516,50 @@
 			(justify right bottom)
 		)
 		(uuid "f4051c2c-651b-4014-b6f5-3c3be196d515")
+	)
+	(global_label "I2C1_SCL"
+		(shape output)
+		(at 113.03 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24b59ebd-09b9-47f3-a9fa-0e1ec45a9630")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 27.6158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SDA"
+		(shape bidirectional)
+		(at 110.49 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "599f9e4a-3090-4c93-9daf-accdf28dbc69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 27.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ADC_IN1"
 		(shape input)
