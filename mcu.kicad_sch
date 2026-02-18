@@ -4296,6 +4296,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020d586f-ca38-441f-ab48-0511cce1a10d")
+	)
+	(wire
+		(pts
 			(xy 170.18 256.54) (xy 177.8 256.54)
 		)
 		(stroke
@@ -5006,6 +5016,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 36.83) (xy 67.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933769e9-8a33-405a-97b3-f9ebec87c560")
+	)
+	(wire
+		(pts
 			(xy 298.45 143.51) (xy 314.96 143.51)
 		)
 		(stroke
@@ -5146,13 +5166,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 64.77 44.45)
+			(xy 294.64 198.12) (xy 326.39 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0ba1737-27d3-48cb-98bb-09f67bb5a07d")
+		(uuid "b0307a75-2beb-4d58-8548-0f4c23132b68")
 	)
 	(wire
 		(pts
@@ -5233,6 +5253,16 @@
 			(type default)
 		)
 		(uuid "b792ab4d-df3f-4720-b3d2-f7bf9235f3f4")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cf8853-fe47-41e0-8d34-fde8ef626a32")
 	)
 	(wire
 		(pts
@@ -5684,6 +5714,16 @@
 		)
 		(uuid "51aee729-eac4-4261-861a-e8460b9ec04a")
 	)
+	(label "LED1"
+		(at 67.31 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51c40bfc-923a-4ef2-a704-4771515c3b05")
+	)
 	(label "CS"
 		(at 125.73 31.75 270)
 		(effects
@@ -5723,16 +5763,6 @@
 			(justify right bottom)
 		)
 		(uuid "6ca6889a-a3e7-4f70-a2c1-5339f0fd8d5a")
-	)
-	(label "LED1"
-		(at 64.77 35.56 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "765244eb-5ffb-48eb-959e-8b26fe521404")
 	)
 	(label "VDDA"
 		(at 264.16 227.33 180)
@@ -5986,6 +6016,50 @@
 			)
 		)
 	)
+	(global_label "DAC_OUT1"
+		(shape input)
+		(at 58.42 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "839a3588-3428-4282-a38c-630638605f4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0005 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAC_OUT1"
+		(shape input)
+		(at 294.64 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd67e39e-d1ae-46ad-8349-66c560c61341")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.2205 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_IN1"
 		(shape input)
 		(at 69.85 41.91 90)
@@ -6073,6 +6147,17 @@
 			(justify left)
 		)
 		(uuid "947dcdcf-4307-477d-bd90-97658f7863da")
+	)
+	(hierarchical_label "AUDIO_OUT"
+		(shape input)
+		(at 326.39 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98fc93dc-21ce-4461-aa94-1f5458ea57c9")
 	)
 	(hierarchical_label "SCK"
 		(shape input)

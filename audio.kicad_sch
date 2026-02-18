@@ -1173,7 +1173,7 @@
 		)
 	)
 	(junction
-		(at 168.91 86.36)
+		(at 184.15 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a13afe4c-4a34-4051-a248-2aa1a0519556")
@@ -1208,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 168.91 86.36)
+			(xy 184.15 83.82) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1225,6 +1225,16 @@
 			(type default)
 		)
 		(uuid "20c0da81-c281-49ff-a6e7-d1072a454758")
+	)
+	(wire
+		(pts
+			(xy 176.53 86.36) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237d1f31-68f7-4887-aa38-c7415c399c1b")
 	)
 	(wire
 		(pts
@@ -1308,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 171.45 93.98)
+			(xy 186.69 88.9) (xy 186.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1318,13 +1328,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 168.91 83.82)
+			(xy 186.69 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a772059-773d-4cec-bebd-b9c6c09f9b8f")
+	)
+	(wire
+		(pts
+			(xy 199.39 123.19) (xy 231.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0950a0-ddde-4f27-8fdc-b474e756310f")
 	)
 	(wire
 		(pts
@@ -1338,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 86.36) (xy 171.45 86.36)
+			(xy 184.15 86.36) (xy 186.69 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1356,71 +1376,60 @@
 		)
 		(uuid "f499ddcb-f2e3-4349-a2fa-19640ac74880")
 	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 123.19 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "AUDIO_OUT"
+		(shape input)
+		(at 199.39 123.19 180)
 		(fields_autoplaced yes)
-		(uuid "02e6f400-0f53-4246-af7a-9504010a40ca")
-		(property "Reference" "#PWR072"
-			(at 123.19 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d37f299-8fd0-4b82-9214-8355d8eb070c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.1842 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 123.19 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	)
+	(global_label "AUDIO_IN"
+		(shape input)
+		(at 123.19 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 123.19 64.77 0)
+		(uuid "9bb5f77b-c9fc-4991-8fda-10cb6da515cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 53.2575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 123.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	)
+	(hierarchical_label "AUDIO_IN"
+		(shape input)
+		(at 231.14 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 123.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27488204-6a59-4264-a010-22e511ea92ee")
-		)
-		(instances
-			(project ""
-				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188/b0fb54ab-b2e8-4f49-90f2-51362383cff9"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "edfc3bab-cc8e-44d1-9af4-b4f3c0f6793b")
 	)
 	(symbol
 		(lib_id "Amplifier_Audio:LM386")
@@ -1855,7 +1864,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 93.98 0)
+		(at 186.69 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1864,7 +1873,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd6d08bb-825d-47aa-9086-e6302af96a22")
 		(property "Reference" "#PWR071"
-			(at 171.45 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 99.06 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 93.98 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 93.98 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 93.98 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2062,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 176.53 86.36 180)
+		(at 191.77 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2062,7 +2071,7 @@
 		(fields_autoplaced yes)
 		(uuid "d196646c-e710-4172-9edc-d0b4c923224d")
 		(property "Reference" "J6"
-			(at 184.15 84.4549 0)
+			(at 199.39 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2080,7 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 184.15 86.9949 0)
+			(at 199.39 86.9949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2089,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 176.53 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2107,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 176.53 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,6 +2194,74 @@
 			(project ""
 				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188/b0fb54ab-b2e8-4f49-90f2-51362383cff9"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e05a52-0022-45a5-a6c4-d0654fa1dcbc")
+		(property "Reference" "C37"
+			(at 172.72 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "250 uF"
+			(at 172.72 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.53 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40004df8-abcd-4b8d-a6d4-1c900971f5ab")
+		)
+		(pin "2"
+			(uuid "e4576b25-ad89-448a-be3f-00d513b93792")
+		)
+		(instances
+			(project ""
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188/b0fb54ab-b2e8-4f49-90f2-51362383cff9"
+					(reference "C37")
 					(unit 1)
 				)
 			)

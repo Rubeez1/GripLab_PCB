@@ -127,6 +127,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 106.68) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4478da-95e0-40d4-b536-77e8bae3754e")
+	)
+	(wire
+		(pts
 			(xy 185.42 60.96) (xy 165.1 60.96)
 		)
 		(stroke
@@ -194,6 +204,16 @@
 			(type default)
 		)
 		(uuid "88f960d3-6b3a-4dc3-9aa9-0746860fd93b")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccb0f62-3ed9-4932-adbd-771344ea961d")
 	)
 	(wire
 		(pts
@@ -364,6 +384,16 @@
 			(type default)
 		)
 		(uuid "d47611d9-5cc4-42b7-b949-e871766571bf")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7162a9f-1f95-44ef-8c43-74bf14c4191d")
 	)
 	(wire
 		(pts
@@ -579,6 +609,16 @@
 				(justify right)
 			)
 		)
+		(pin "AUDIO_OUT" input
+			(at 127 71.12 180)
+			(uuid "1a9c3778-16fd-48ab-8cb1-c314f8560af4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "senior_design"
 				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
@@ -763,6 +803,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AUDIO_IN" input
+			(at 88.9 106.68 0)
+			(uuid "92003431-bac3-44f8-852f-1c370dab426c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
