@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 143.51 50.8) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06117135-804e-4e7c-a0dd-6cb5e53c9656")
+	)
+	(wire
+		(pts
 			(xy 196.85 105.41) (xy 203.2 105.41)
 		)
 		(stroke
@@ -24,6 +34,26 @@
 			(type default)
 		)
 		(uuid "1555cc4a-e6a9-483f-bf27-6faa546d0129")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 224.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1737cbd1-76ec-420a-b2d3-9279bee8336d")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.8) (xy 138.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b13149c-619b-42d9-b2dd-beff2f0e1228")
 	)
 	(wire
 		(pts
@@ -64,6 +94,26 @@
 			(type default)
 		)
 		(uuid "32c4f2be-b40e-4d2e-8475-54545a90ed0d")
+	)
+	(wire
+		(pts
+			(xy 224.79 40.64) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bbb7a7-c8f6-4b4c-b9aa-4c57695e5818")
+	)
+	(wire
+		(pts
+			(xy 138.43 34.29) (xy 233.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe32444-4ae3-499e-b8cd-07b961bda59d")
 	)
 	(wire
 		(pts
@@ -117,6 +167,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 38.1) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7385c8dc-2f74-4e1b-973d-2e2c6ebb12a0")
+	)
+	(wire
+		(pts
+			(xy 231.14 50.8) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ef1629-08b5-40d0-a016-82280e37c0a3")
+	)
+	(wire
+		(pts
 			(xy 196.85 53.34) (xy 196.85 105.41)
 		)
 		(stroke
@@ -124,6 +194,36 @@
 			(type default)
 		)
 		(uuid "88f960d3-6b3a-4dc3-9aa9-0746860fd93b")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9133d8d5-dff3-4269-9be0-ee88bc0ca0d0")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 219.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936e12ee-6b96-4239-9514-e9ef705d3959")
+	)
+	(wire
+		(pts
+			(xy 233.68 34.29) (xy 233.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9899f2b9-d105-4824-9e77-00493750577c")
 	)
 	(wire
 		(pts
@@ -147,6 +247,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 31.75) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f0f2ba-a926-442b-9b9b-6c15f749c563")
+	)
+	(wire
+		(pts
 			(xy 165.1 58.42) (xy 189.23 58.42)
 		)
 		(stroke
@@ -154,6 +264,46 @@
 			(type default)
 		)
 		(uuid "a7be83a3-4a40-4dd8-b000-496287ce120a")
+	)
+	(wire
+		(pts
+			(xy 228.6 39.37) (xy 228.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbe790a-1ac4-4cdd-a53b-574c35b822de")
+	)
+	(wire
+		(pts
+			(xy 219.71 44.45) (xy 151.13 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcfbfd2-6372-4af6-946c-fdf8ca6e8b1d")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 228.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b965e0b3-aa62-4e61-8534-ad8c620fad82")
+	)
+	(wire
+		(pts
+			(xy 140.97 38.1) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb26816-2b5b-41bc-b199-fa37d33182f2")
 	)
 	(wire
 		(pts
@@ -187,6 +337,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 50.8) (xy 236.22 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e6e35d-4991-4dd5-b899-9443e13e36f5")
+	)
+	(wire
+		(pts
 			(xy 177.8 123.19) (xy 203.2 123.19)
 		)
 		(stroke
@@ -217,6 +377,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 31.75) (xy 135.89 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54225df-21a8-4c7a-a39e-65b536f04ed7")
+	)
+	(wire
+		(pts
 			(xy 185.42 115.57) (xy 185.42 60.96)
 		)
 		(stroke
@@ -224,6 +394,16 @@
 			(type default)
 		)
 		(uuid "e8450a94-bd8f-4ada-9fa6-24e58c557a1d")
+	)
+	(wire
+		(pts
+			(xy 151.13 44.45) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a5efbf-eb11-4f1e-add7-11d683265966")
 	)
 	(sheet
 		(at 127 50.8)
@@ -339,6 +519,66 @@
 				(justify right)
 			)
 		)
+		(pin "I2C1_SCL" input
+			(at 147.32 50.8 90)
+			(uuid "ebdb199b-2377-4479-b040-ca662f5722b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 151.13 50.8 90)
+			(uuid "69d38722-6a7e-48ad-b45d-8d412bbaa256")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 143.51 50.8 90)
+			(uuid "35760b09-77f7-42e8-a84f-57897c1b50fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 140.97 50.8 90)
+			(uuid "c2a16cdb-b021-4788-80b1-aa9a49900373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCLK" input
+			(at 138.43 50.8 90)
+			(uuid "9ca458d7-cdff-4408-b615-fc1de9b429cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SSD" input
+			(at 135.89 50.8 90)
+			(uuid "1d81cf46-3470-49de-b01d-83c11802d73d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "senior_design"
 				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
@@ -421,6 +661,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 219.71 50.8 90)
+			(uuid "292182ed-c05d-4e29-b792-b16f9923cb10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 224.79 50.8 90)
+			(uuid "2726c0b5-3b6a-4d3f-b85f-bf1892dcac44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 228.6 50.8 90)
+			(uuid "5cd21221-5d7d-4f79-91c4-4758ff6fb55a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 231.14 50.8 90)
+			(uuid "21aa661d-45d4-4159-8733-248253a00048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCLK" input
+			(at 233.68 50.8 90)
+			(uuid "a0444283-80f6-428b-94a8-b368cce5598c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SSD" input
+			(at 236.22 50.8 90)
+			(uuid "812c30b1-9106-4a93-ab93-5f8b8a1a6c25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
