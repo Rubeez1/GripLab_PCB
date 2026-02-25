@@ -5465,6 +5465,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 36.83) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32193ffd-c09e-4581-8815-e92f16a72d02")
+	)
+	(wire
+		(pts
 			(xy 50.8 161.29) (xy 50.8 163.83)
 		)
 		(stroke
@@ -6055,6 +6065,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 38.1) (xy 163.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8da554-9c1c-4aa0-8840-c50b70f1b402")
+	)
+	(wire
+		(pts
 			(xy 181.61 80.01) (xy 198.12 80.01)
 		)
 		(stroke
@@ -6435,13 +6455,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 62.23 44.45)
+			(xy 161.29 38.1) (xy 161.29 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df2b8115-ce20-435a-a2d3-c1c435e1ed7e")
+		(uuid "df44b702-1949-4eb0-92d0-2cbf008bab51")
 	)
 	(wire
 		(pts
@@ -6472,6 +6492,16 @@
 			(type default)
 		)
 		(uuid "e62dabf4-6055-48ea-a3e9-24e794931b46")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 158.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b8aec8-fba3-4520-a375-9a04cbccdbf3")
 	)
 	(wire
 		(pts
@@ -6643,7 +6673,7 @@
 		)
 		(uuid "fee06048-064f-4b6d-b87f-e343e87394c1")
 	)
-	(label "MISO"
+	(label "MISO2"
 		(at 298.45 143.51 0)
 		(effects
 			(font
@@ -6663,7 +6693,7 @@
 		)
 		(uuid "019bc9e1-1059-4ad3-8619-9ee0b23e9e94")
 	)
-	(label "SCK"
+	(label "SCK2"
 		(at 298.45 148.59 0)
 		(effects
 			(font
@@ -6682,16 +6712,6 @@
 			(justify right bottom)
 		)
 		(uuid "08e0c150-e0c1-49c6-a218-73df486953a9")
-	)
-	(label "CS2"
-		(at 62.23 36.83 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0adbccb7-f806-4fd9-9cca-5e9f21302336")
 	)
 	(label "SWDIO"
 		(at 104.14 242.57 180)
@@ -6773,6 +6793,16 @@
 		)
 		(uuid "5c9b990f-1013-4780-afb4-7025decdff7c")
 	)
+	(label "SCK2"
+		(at 158.75 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69e39dfb-6ff2-4040-874a-9be6b61469fa")
+	)
 	(label "RESET"
 		(at 146.05 116.84 90)
 		(effects
@@ -6853,6 +6883,16 @@
 		)
 		(uuid "81aef591-90d3-4b02-ad4a-755ef955d115")
 	)
+	(label "MISO2"
+		(at 161.29 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89ea8d74-d561-4dbd-b33d-6a189ea019e5")
+	)
 	(label "INT"
 		(at 300.99 182.88 180)
 		(effects
@@ -6883,6 +6923,16 @@
 		)
 		(uuid "8e352bd8-14cc-4554-9ef5-132c3964a1f9")
 	)
+	(label "CS2"
+		(at 90.17 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90cfc8ec-47bf-4019-b0b2-21def02c2875")
+	)
 	(label "LED2"
 		(at 340.36 207.01 270)
 		(effects
@@ -6893,7 +6943,7 @@
 		)
 		(uuid "94eb20a8-6082-4442-99f5-424e5af0762b")
 	)
-	(label "MOSI"
+	(label "MOSI2"
 		(at 298.45 146.05 0)
 		(effects
 			(font
@@ -6922,6 +6972,16 @@
 			(justify right bottom)
 		)
 		(uuid "b8e349e7-50f5-4a8d-b0c2-b9d08ee3f5ac")
+	)
+	(label "MOSI2"
+		(at 163.83 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d23b1a30-d08a-4e8e-9b8c-57d465d55608")
 	)
 	(label "MOSI"
 		(at 133.35 31.75 270)
