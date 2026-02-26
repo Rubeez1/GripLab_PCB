@@ -15942,7 +15942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Boost_Inductor:IND_TAIYO_NR5040_TAY"
 			(at 99.06 36.83 0)
 			(effects
 				(font
