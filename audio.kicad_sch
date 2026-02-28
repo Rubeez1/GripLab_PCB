@@ -1711,7 +1711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Audio_Module:D_TVS SMB"
 			(at 177.8 90.17 0)
 			(effects
 				(font

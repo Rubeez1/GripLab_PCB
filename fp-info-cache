@@ -1,18 +1,11 @@
-27262441563332684
-74HC4050
-SO16
-<b>Small Outline package</b> 150 mil
-
-0
-16
-16
-74HC4050
-Untitled
+27246497376323352
+Audio_Module
+D_TVS SMB
 
 
 0
-0
-0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -395,13 +388,6 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
-0
-2
-2
-Boost_Inductor
-IND_TAIYO_NR5040_TAY
-
-NR5040T6R8M 
 0
 2
 2
@@ -100792,13 +100778,6 @@ Logo WEEE
 0
 0
 0
-TPS61169
-SOT65P210X110-5N
-
-
-0
-5
-5
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -107939,45 +107918,3 @@ Varistor VF
 0
 2
 2
-inductor
-IND_TAIYO_NR5040_TAY
-
-NR5040T6R8M 
-0
-0
-0
-inductor
-LargeInductor
-
-
-0
-0
-0
-ra8875
-RA8875
-
-
-0
-100
-100
-ra8875
-RA8875L3N
-
-
-0
-100
-100
-ra8875
-Untitled
-
-
-0
-0
-0
-ra8875
-ra
-
-
-0
-100
-100
