@@ -157,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 76.2) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e8fc6a-1f0d-425d-9122-11c4a4c5a5d0")
+	)
+	(wire
+		(pts
 			(xy 177.8 68.58) (xy 177.8 123.19)
 		)
 		(stroke
@@ -204,6 +214,16 @@
 			(type default)
 		)
 		(uuid "88f960d3-6b3a-4dc3-9aa9-0746860fd93b")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c67bc17-1a93-4f4b-a2f5-f857d875b046")
 	)
 	(wire
 		(pts
@@ -619,6 +639,26 @@
 				(justify left)
 			)
 		)
+		(pin "VDDA" input
+			(at 147.32 76.2 270)
+			(uuid "188e56b6-814a-40d7-99a6-482afa15858a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN2" input
+			(at 152.4 76.2 270)
+			(uuid "b4b1fda8-1961-4bf0-b82d-2646b9d671d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "senior_design"
 				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188"
@@ -860,6 +900,26 @@
 		(pin "ADC_IN1" input
 			(at 157.48 101.6 90)
 			(uuid "06d361b1-dda6-416f-86f0-5a3a19d4868f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDDA" input
+			(at 147.32 101.6 90)
+			(uuid "1deb4359-86b9-4922-85fd-ae25618efbe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_IN2" input
+			(at 152.4 101.6 90)
+			(uuid "35176c9b-8aca-4940-b44a-9a18221aab76")
 			(effects
 				(font
 					(size 1.27 1.27)
