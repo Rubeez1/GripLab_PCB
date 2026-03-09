@@ -1258,6 +1258,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c3082d-10dc-414e-8350-73759a3af0e8")
+	)
+	(wire
+		(pts
 			(xy 143.51 73.66) (xy 138.43 73.66)
 		)
 		(stroke
@@ -1268,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 173.99 71.12)
+			(xy 172.72 71.12) (xy 182.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1425,6 +1435,16 @@
 			(type default)
 		)
 		(uuid "433a3130-9f9b-425d-a9a3-0c38342cb62f")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4412f459-7180-4a45-9e03-4df53e0f6707")
 	)
 	(wire
 		(pts
@@ -1608,17 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 102.87) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76319f41-9762-44a8-9274-8cda8fc6234f")
-	)
-	(wire
-		(pts
-			(xy 162.56 135.89) (xy 165.1 135.89)
+			(xy 162.56 135.89) (xy 172.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1828,16 +1838,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 97.79) (xy 184.15 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb94c57c-dc18-4ecb-92d5-6dedb05ecb5f")
-	)
-	(wire
-		(pts
 			(xy 165.1 83.82) (xy 165.1 71.12)
 		)
 		(stroke
@@ -1996,6 +1996,46 @@
 		)
 		(uuid "03b8c9e7-4141-4bcf-b3d1-647383144032")
 	)
+	(label "ADC_IN1"
+		(at 158.75 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "087f96a0-9c38-4a10-9b80-b6ec08bc2dfe")
+	)
+	(label "ADC_IN2"
+		(at 172.72 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dacda07-d853-411d-b194-9463508ff5f0")
+	)
+	(label "ADC_IN2"
+		(at 160.02 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10a68729-9cd5-418a-b0f7-c96c20e18602")
+	)
+	(label "ADC_IN1"
+		(at 182.88 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47b86978-487a-4db3-a7a5-32ecae726c49")
+	)
 	(label "VDDA"
 		(at 58.42 116.84 90)
 		(effects
@@ -2036,96 +2076,8 @@
 		)
 		(uuid "8f4ef9e9-e2c8-4b98-846a-5484ccd02106")
 	)
-	(global_label "ADC_IN2"
-		(shape input)
-		(at 168.91 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "04a1ffab-44e8-4b33-8141-070e5d360e53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.1838 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN2"
-		(shape input)
-		(at 165.1 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1901b98b-bb70-4e28-8451-a0d3762b180f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8262 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN1"
-		(shape input)
-		(at 167.64 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42f613bd-2147-4882-9ab9-65bb7cae5ce7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.9138 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN1"
-		(shape input)
-		(at 173.99 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b70ef42e-0436-4d5e-8b38-1bfffc725dd5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7162 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "ADC_IN2"
-		(shape input)
+		(shape output)
 		(at 185.42 102.87 0)
 		(effects
 			(font
@@ -2136,7 +2088,7 @@
 		(uuid "2dd450df-3b34-481d-a09c-9c36a6bb458c")
 	)
 	(hierarchical_label "ADC_IN1"
-		(shape input)
+		(shape output)
 		(at 184.15 97.79 0)
 		(effects
 			(font

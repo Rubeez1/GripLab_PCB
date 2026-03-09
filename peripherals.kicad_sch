@@ -10165,7 +10165,7 @@
 		(uuid "ffbcca2d-b34a-4bfd-9019-6cf32f0d45f6")
 	)
 	(hierarchical_label "INT"
-		(shape input)
+		(shape output)
 		(at 247.65 111.76 0)
 		(effects
 			(font
@@ -10187,7 +10187,7 @@
 		(uuid "39346f7c-9360-4845-be89-a998caafc068")
 	)
 	(hierarchical_label "MISO"
-		(shape input)
+		(shape output)
 		(at 247.65 124.46 0)
 		(effects
 			(font
@@ -10231,7 +10231,7 @@
 		(uuid "a1076198-1c73-4272-a5ed-a82bb022d9af")
 	)
 	(hierarchical_label "WAIT"
-		(shape input)
+		(shape output)
 		(at 247.65 114.3 0)
 		(effects
 			(font
@@ -10885,7 +10885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC4050.pdf"
 			(at 351.79 64.77 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/RA8875_DS_V19_Eng.pdf"
 			(at 447.04 114.3 0)
 			(effects
 				(font
@@ -14957,7 +14957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61169.pdf"
 			(at 100.33 54.61 0)
 			(effects
 				(font

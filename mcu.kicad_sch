@@ -6158,6 +6158,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 35.56) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8ac94d-84bb-43dc-8af1-e8dcb1fff4d4")
+	)
+	(wire
+		(pts
 			(xy 154.94 162.56) (xy 162.56 162.56)
 		)
 		(stroke
@@ -6808,16 +6818,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 69.85 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b84af4-d547-405a-90bc-6e7b20d10f5e")
-	)
-	(wire
-		(pts
 			(xy 300.99 167.64) (xy 309.88 167.64)
 		)
 		(stroke
@@ -6825,6 +6825,16 @@
 			(type default)
 		)
 		(uuid "63dfa0ca-4122-4d0a-9f06-82b507dac000")
+	)
+	(wire
+		(pts
+			(xy 285.75 198.12) (xy 326.39 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649451b0-ab31-4710-aba2-ee8f542cb951")
 	)
 	(wire
 		(pts
@@ -7318,16 +7328,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 191.77) (xy 326.39 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e16e86-bf5b-479b-bff7-e4df124fd9a1")
-	)
-	(wire
-		(pts
 			(xy 171.45 34.29) (xy 171.45 44.45)
 		)
 		(stroke
@@ -7395,16 +7395,6 @@
 			(type default)
 		)
 		(uuid "afb94e6a-4b87-472b-897c-626ff847c45d")
-	)
-	(wire
-		(pts
-			(xy 294.64 198.12) (xy 326.39 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0307a75-2beb-4d58-8548-0f4c23132b68")
 	)
 	(wire
 		(pts
@@ -7695,6 +7685,16 @@
 			(type default)
 		)
 		(uuid "d6007fc5-aca9-4cb4-b9cf-f987c41411c6")
+	)
+	(wire
+		(pts
+			(xy 285.75 191.77) (xy 326.39 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db97e3a5-d84b-4a13-b39a-ffee6871025b")
 	)
 	(wire
 		(pts
@@ -7996,6 +7996,16 @@
 		)
 		(uuid "019bc9e1-1059-4ad3-8619-9ee0b23e9e94")
 	)
+	(label "ADC_IN1"
+		(at 285.75 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08435efd-c2e3-43c1-8f73-31c89ffad621")
+	)
 	(label "SCK2"
 		(at 298.45 148.59 0)
 		(effects
@@ -8215,6 +8225,16 @@
 			(justify right bottom)
 		)
 		(uuid "6ca6889a-a3e7-4f70-a2c1-5339f0fd8d5a")
+	)
+	(label "ADC_IN1"
+		(at 69.85 35.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6efbd52b-1a99-4171-b20b-f4534e7e09b1")
 	)
 	(label "SPI4_INT"
 		(at 304.8 113.03 180)
@@ -8476,6 +8496,16 @@
 		)
 		(uuid "d672cd40-4926-4b17-bb64-da410b02008d")
 	)
+	(label "DAC_OUT1"
+		(at 285.75 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dadac25d-5971-44c0-b748-4309abf9acf5")
+	)
 	(label "SPI4_MISO"
 		(at 110.49 121.92 90)
 		(effects
@@ -8566,6 +8596,16 @@
 		)
 		(uuid "f99c7f8c-c2d4-4734-be4d-bb14c2067585")
 	)
+	(label "DAC_OUT1"
+		(at 58.42 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fab846f3-25cc-4ec8-825e-aa01f3832cba")
+	)
 	(label "SPI4_MISO"
 		(at 304.8 100.33 180)
 		(effects
@@ -8575,94 +8615,6 @@
 			(justify right bottom)
 		)
 		(uuid "ffec693c-9077-46bd-92ef-985205c49f79")
-	)
-	(global_label "ADC_IN1"
-		(shape input)
-		(at 294.64 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f23cab8-7476-4245-b7f5-900f17cbb3d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.9138 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DAC_OUT1"
-		(shape input)
-		(at 58.42 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "839a3588-3428-4282-a38c-630638605f4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.0005 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DAC_OUT1"
-		(shape input)
-		(at 294.64 198.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd67e39e-d1ae-46ad-8349-66c560c61341")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.2205 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_IN1"
-		(shape input)
-		(at 69.85 41.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5e2282e-1f7c-4cb5-87d3-f361841fdaa5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 31.1838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "INT"
 		(shape input)
@@ -8676,7 +8628,7 @@
 		(uuid "14c6a584-3ad6-4950-ab38-b6dcdcbc6bb7")
 	)
 	(hierarchical_label "MOSI"
-		(shape input)
+		(shape output)
 		(at 309.88 172.72 0)
 		(effects
 			(font
@@ -8687,7 +8639,7 @@
 		(uuid "3e1a8577-6851-4f52-934b-c685510c57ce")
 	)
 	(hierarchical_label "I2C1_SCL"
-		(shape input)
+		(shape output)
 		(at 309.88 163.83 0)
 		(effects
 			(font
@@ -8709,7 +8661,7 @@
 		(uuid "7520da5a-e4d8-42fb-8769-2498c31c5969")
 	)
 	(hierarchical_label "RST"
-		(shape input)
+		(shape output)
 		(at 309.88 167.64 0)
 		(effects
 			(font
@@ -8720,7 +8672,7 @@
 		(uuid "7eb45e6c-5a57-446c-9ded-e3070974edd6")
 	)
 	(hierarchical_label "SPI_SCLK"
-		(shape input)
+		(shape output)
 		(at 314.96 148.59 0)
 		(effects
 			(font
@@ -8731,7 +8683,7 @@
 		(uuid "947dcdcf-4307-477d-bd90-97658f7863da")
 	)
 	(hierarchical_label "AUDIO_OUT"
-		(shape input)
+		(shape output)
 		(at 326.39 198.12 0)
 		(effects
 			(font
@@ -8742,7 +8694,7 @@
 		(uuid "98fc93dc-21ce-4461-aa94-1f5458ea57c9")
 	)
 	(hierarchical_label "VDDA"
-		(shape input)
+		(shape output)
 		(at 312.42 135.89 0)
 		(effects
 			(font
@@ -8753,7 +8705,7 @@
 		(uuid "a07a5b07-1a22-4fae-9ba9-ff69a9994d5a")
 	)
 	(hierarchical_label "SCK"
-		(shape input)
+		(shape output)
 		(at 309.88 177.8 0)
 		(effects
 			(font
@@ -8775,7 +8727,7 @@
 		(uuid "a45f7d04-0c3e-41ab-8fec-96a098b46277")
 	)
 	(hierarchical_label "I2C1_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 309.88 161.29 0)
 		(effects
 			(font
@@ -8797,7 +8749,7 @@
 		(uuid "b2a43157-a9d3-45f7-81b1-a45fc6bae71b")
 	)
 	(hierarchical_label "SPI_MOSI"
-		(shape input)
+		(shape output)
 		(at 314.96 146.05 0)
 		(effects
 			(font
@@ -8808,7 +8760,7 @@
 		(uuid "bd5b4ec5-1d80-4d44-b25a-a7b4c4aeb0a1")
 	)
 	(hierarchical_label "SPI_SSD"
-		(shape input)
+		(shape output)
 		(at 314.96 151.13 0)
 		(effects
 			(font
@@ -8819,7 +8771,7 @@
 		(uuid "d48237bd-2718-40f9-a274-0c069896b271")
 	)
 	(hierarchical_label "CS"
-		(shape input)
+		(shape output)
 		(at 309.88 180.34 0)
 		(effects
 			(font

@@ -499,7 +499,7 @@
 				(justify left)
 			)
 		)
-		(pin "CS" input
+		(pin "CS" output
 			(at 165.1 58.42 0)
 			(uuid "c6b98ba8-fefe-4a78-9f1a-3c2c1a260a50")
 			(effects
@@ -529,7 +529,7 @@
 				(justify right)
 			)
 		)
-		(pin "MOSI" input
+		(pin "MOSI" output
 			(at 165.1 63.5 0)
 			(uuid "6902247f-00ac-4d94-9ef9-1006bc7eddd3")
 			(effects
@@ -539,7 +539,7 @@
 				(justify right)
 			)
 		)
-		(pin "RST" input
+		(pin "RST" output
 			(at 165.1 66.04 0)
 			(uuid "477a5981-aeb2-4754-a194-aade0789bade")
 			(effects
@@ -549,7 +549,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCK" input
+		(pin "SCK" output
 			(at 165.1 68.58 0)
 			(uuid "551bceb2-e82f-46a9-b66f-80ed51f08ef3")
 			(effects
@@ -569,7 +569,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SCL" input
+		(pin "I2C1_SCL" output
 			(at 147.32 50.8 90)
 			(uuid "ebdb199b-2377-4479-b040-ca662f5722b9")
 			(effects
@@ -579,7 +579,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SDA" input
+		(pin "I2C1_SDA" bidirectional
 			(at 151.13 50.8 90)
 			(uuid "69d38722-6a7e-48ad-b45d-8d412bbaa256")
 			(effects
@@ -599,7 +599,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MOSI" input
+		(pin "SPI_MOSI" output
 			(at 140.97 50.8 90)
 			(uuid "c2a16cdb-b021-4788-80b1-aa9a49900373")
 			(effects
@@ -609,7 +609,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_SCLK" input
+		(pin "SPI_SCLK" output
 			(at 138.43 50.8 90)
 			(uuid "9ca458d7-cdff-4408-b615-fc1de9b429cd")
 			(effects
@@ -619,7 +619,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_SSD" input
+		(pin "SPI_SSD" output
 			(at 135.89 50.8 90)
 			(uuid "1d81cf46-3470-49de-b01d-83c11802d73d")
 			(effects
@@ -629,7 +629,7 @@
 				(justify right)
 			)
 		)
-		(pin "AUDIO_OUT" input
+		(pin "AUDIO_OUT" output
 			(at 127 71.12 180)
 			(uuid "1a9c3778-16fd-48ab-8cb1-c314f8560af4")
 			(effects
@@ -639,7 +639,7 @@
 				(justify left)
 			)
 		)
-		(pin "VDDA" input
+		(pin "VDDA" output
 			(at 147.32 76.2 270)
 			(uuid "188e56b6-814a-40d7-99a6-482afa15858a")
 			(effects
@@ -753,7 +753,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SDA" input
+		(pin "I2C1_SDA" bidirectional
 			(at 224.79 50.8 90)
 			(uuid "2726c0b5-3b6a-4d3f-b85f-bf1892dcac44")
 			(effects
@@ -763,7 +763,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MISO" input
+		(pin "SPI_MISO" output
 			(at 228.6 50.8 90)
 			(uuid "5cd21221-5d7d-4f79-91c4-4758ff6fb55a")
 			(effects
@@ -897,7 +897,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ADC_IN1" input
+		(pin "ADC_IN1" output
 			(at 157.48 101.6 90)
 			(uuid "06d361b1-dda6-416f-86f0-5a3a19d4868f")
 			(effects
@@ -917,7 +917,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC_IN2" input
+		(pin "ADC_IN2" output
 			(at 152.4 101.6 90)
 			(uuid "35176c9b-8aca-4940-b44a-9a18221aab76")
 			(effects
@@ -969,7 +969,7 @@
 				(justify left top)
 			)
 		)
-		(pin "INT" input
+		(pin "INT" output
 			(at 203.2 107.95 180)
 			(uuid "6882dfde-cb69-4df9-84b2-c618cf7d65cf")
 			(effects
@@ -999,7 +999,7 @@
 				(justify left)
 			)
 		)
-		(pin "MISO" input
+		(pin "MISO" output
 			(at 203.2 115.57 180)
 			(uuid "e038a97f-9191-472f-a00f-f7255445cdd3")
 			(effects
@@ -1039,7 +1039,7 @@
 				(justify left)
 			)
 		)
-		(pin "WAIT" input
+		(pin "WAIT" output
 			(at 203.2 105.41 180)
 			(uuid "04b0b6a7-589e-4855-b16c-e5c914e850fe")
 			(effects

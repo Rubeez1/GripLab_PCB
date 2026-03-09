@@ -1689,10 +1689,10 @@
 		(uuid "b32f34bc-05c1-4ede-bc13-6cda5c5c0c12")
 	)
 	(junction
-		(at 83.82 88.9)
+		(at 86.36 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c026ce1e-b297-4de2-93da-4b9b870d2d83")
+		(uuid "c741ea6f-a6b0-4805-9013-ca759dca3e13")
 	)
 	(junction
 		(at 161.29 72.39)
@@ -1720,16 +1720,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04cced52-fea4-4f59-8de9-e784c54f3235")
-	)
-	(wire
-		(pts
 			(xy 99.06 72.39) (xy 109.22 72.39)
 		)
 		(stroke
@@ -1740,13 +1730,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 83.82 90.17)
+			(xy 86.36 87.63) (xy 86.36 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08f2284c-8b1e-43d1-8ada-e9576c487918")
+	)
+	(wire
+		(pts
+			(xy 86.36 95.25) (xy 86.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a48c25d-7c38-4c8c-95d7-864651f189dc")
 	)
 	(wire
 		(pts
@@ -1840,16 +1840,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 87.63) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eb37520-d8df-4444-8927-e27952fd431c")
-	)
-	(wire
-		(pts
 			(xy 92.71 72.39) (xy 93.98 72.39)
 		)
 		(stroke
@@ -1857,6 +1847,16 @@
 			(type default)
 		)
 		(uuid "91e37795-66dc-4e79-be58-e0fcd5f81b8f")
+	)
+	(wire
+		(pts
+			(xy 83.82 95.25) (xy 86.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3c6ca8-0ee2-4beb-8680-32bb28b88b6b")
 	)
 	(wire
 		(pts
@@ -1947,16 +1947,6 @@
 			(type default)
 		)
 		(uuid "f76aab10-3622-47f8-bd99-fcb8be5c6405")
-	)
-	(wire
-		(pts
-			(xy 86.36 87.63) (xy 86.36 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde045d1-794b-4993-830d-9d72cec0496d")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -2733,6 +2723,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bdf2075-856f-4f55-b1be-00c1820d350c")
+		(property "Reference" "R16"
+			(at 78.994 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 80.01 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.042 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec8c0f3d-c915-44cd-abf2-dfdd35e70e9e")
+		)
+		(pin "2"
+			(uuid "55383b13-fb24-4265-a988-92648fcdb0ed")
+		)
+		(instances
+			(project ""
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188/6a3bd25b-0e65-4984-bc83-1e0aa4753ca0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 116.84 72.39 0)
 		(unit 1)
@@ -3001,7 +3060,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 83.82 90.17 0)
+		(at 86.36 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3010,7 +3069,7 @@
 		(fields_autoplaced yes)
 		(uuid "c62a1133-3b60-4377-823d-98e51e1f799d")
 		(property "Reference" "#PWR065"
-			(at 83.82 96.52 0)
+			(at 86.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 95.25 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 90.17 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 90.17 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 90.17 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
