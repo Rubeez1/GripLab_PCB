@@ -1851,6 +1851,18 @@
 		(uuid "e1077944-b045-4b3b-b92c-3b3cac5ad3ba")
 	)
 	(junction
+		(at 130.81 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3d3ea69-1e82-4a37-94c3-11558e3d9368")
+	)
+	(junction
+		(at 153.67 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eae97d8f-2a1a-4d4e-993e-fc37f4a94a52")
+	)
+	(junction
 		(at 157.48 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,7 +1942,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 125.73 72.39)
+			(xy 153.67 60.96) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a236562-93a4-42e6-b031-0bdadab6d4df")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1947,6 +1969,26 @@
 			(type default)
 		)
 		(uuid "48d3c274-81e4-4730-838f-22522452c22f")
+	)
+	(wire
+		(pts
+			(xy 146.05 60.96) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fe3019-641e-4cb4-b089-b56ad7ce79c0")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d4f528-29b1-454d-bede-31cbdabfed00")
 	)
 	(wire
 		(pts
@@ -2000,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 72.39) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08817cf-c1a8-4478-90a9-3c7aaee11d2e")
+	)
+	(wire
+		(pts
 			(xy 157.48 72.39) (xy 161.29 72.39)
 		)
 		(stroke
@@ -2007,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "bd53b7a2-a354-4e78-a9a3-53c5d85a9c08")
+	)
+	(wire
+		(pts
+			(xy 138.43 60.96) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf648c31-99e6-4a38-a8cd-cb861c4e452d")
 	)
 	(wire
 		(pts
@@ -2070,7 +2132,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 157.48 72.39)
+			(xy 130.81 60.96) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e6f5e0-9c11-4af0-a486-6cff6b266d5b")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3270,6 +3342,74 @@
 			(project "senior_design"
 				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188/6a3bd25b-0e65-4984-bc83-1e0aa4753ca0"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 142.24 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad68b14e-9120-45d4-b34d-6eb090c6e072")
+		(property "Reference" "D6"
+			(at 141.9225 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 141.9225 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SS14 Schottky:DIONM4336X250N"
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50763398-01e6-4531-b36b-f28bfeef29a0")
+		)
+		(pin "2"
+			(uuid "ed00ca4f-8169-485e-9aad-cfdfd7329979")
+		)
+		(instances
+			(project "senior_design"
+				(path "/35c074f0-8545-4dc1-a57d-3ef0bc7d9188/6a3bd25b-0e65-4984-bc83-1e0aa4753ca0"
+					(reference "D6")
 					(unit 1)
 				)
 			)
