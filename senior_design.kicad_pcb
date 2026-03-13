@@ -3824,7 +3824,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 -1.68 0)
+			(at -3.5 -0.09 0)
 			(layer "F.SilkS")
 			(uuid "48c61641-bbe2-4cb2-bb38-b0792fdc38d7")
 			(effects
@@ -5102,7 +5102,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 3.7134 0.12 0)
+			(at -2.57 0 0)
 			(layer "F.SilkS")
 			(uuid "6aeff6bc-3a40-473c-86d8-665ac3742fe6")
 			(effects
@@ -9277,7 +9277,7 @@
 		(uuid "60c2394f-70b4-4380-ba30-3ee9997d8264")
 		(at 175.91 56.0205 -90)
 		(property "Reference" "D6"
-			(at -1.897385 -5.938295 90)
+			(at -0.5105 2.89 90)
 			(layer "F.SilkS")
 			(uuid "b9f0e633-4554-449c-b890-7641b39290f6")
 			(effects
@@ -9288,7 +9288,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 5.47955 3.947045 90)
+			(at -0.5405 5.12 90)
 			(layer "F.Fab")
 			(uuid "a8b11778-348f-4e24-bdbc-ab5f186ef4f2")
 			(effects
@@ -10116,7 +10116,7 @@
 		(uuid "65f268b6-ece6-4160-9a8d-077aa9e84dab")
 		(at 202.3 59.58 90)
 		(property "Reference" "D13"
-			(at -0.127385 -3.945795 90)
+			(at -3.34 3.73 180)
 			(layer "F.SilkS")
 			(uuid "067ce3ce-f618-4cb2-8587-50b0176d83fa")
 			(effects
@@ -14064,7 +14064,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C20"
-			(at -2.9075 -0.2 180)
+			(at 0.17 2.77 180)
 			(layer "F.SilkS")
 			(uuid "fee683f5-6fe8-4795-b003-dd62376a58d1")
 			(effects
